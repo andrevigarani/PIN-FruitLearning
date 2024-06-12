@@ -1,0 +1,42 @@
+.custom-background {
+    background-image: url('../img/bg-frutas.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    position: relative;
+}
+
+.custom-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.btn-custom {
+    background-color: #3caa8f;
+    color: white;
+    border-radius: 50px; /* Laterais totalmente arredondadas */
+    border: none;
+    padding: 1rem;
+}
+
+.btn-custom:hover {
+    background-color: #287563;
+    color: white;
+}
+
+.btn-custom-secondary {
+    background-color: #fdba1c;
+    color: white;
+    border-radius: 50px; /* Laterais totalmente arredondadas */
+    border: none;
+    padding: 1rem;
+}
+
+.btn-custom-secondary:hover {
+    background-color: #d39b17;
+    color: white;
+}

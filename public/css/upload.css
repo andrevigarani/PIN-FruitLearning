@@ -1,0 +1,65 @@
+/* Ocultar o input file real */
+.input-file {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Estilizar o label como um botão */
+.input-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-file-label:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos personalizados para botões */
+.btn-custom {
+    background-color: #28a745;
+    color: white;
+    border-radius: 50px; /* Laterais totalmente arredondadas */
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+    color: white;
+}
+
+/* Estilos para exibir o nome do arquivo selecionado */
+.file-name {
+    display: block;
+    font-size: 14px;
+    color: white;
+}
+
+/* Estilos para a overlay de loading */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
