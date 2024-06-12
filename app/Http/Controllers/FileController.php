@@ -14,7 +14,7 @@ class FileController extends Controller
     public function uploadSVM(Request $request)
     {
         $this->validate($request, [
-            'file' => 'required|mimes:csv|max:2048',
+            'file' => 'required|mimes:csv',
         ]);
 
         try {
@@ -57,7 +57,7 @@ class FileController extends Controller
     public function uploadDecisionTree(Request $request)
     {
         $this->validate($request, [
-            'file' => 'required|mimes:csv|max:2048',
+            'file' => 'required|mimes:csv',
         ]);
 
         try {
